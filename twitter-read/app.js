@@ -22,4 +22,4 @@ const readTweets = function (track) {
         console.log(err);
     }
 };
-readTweets('the');
+readTweets('modi');
