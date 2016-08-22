@@ -1,0 +1,5 @@
+/Users/vinodm1986/Installables/spark-1.6.2-bin-hadoop2.6/bin/spark-shell
+
+val datadir = "/Users/vinodm1986/Workspace/spark/data/";
+val collData = sc.parallelize(Array(1,2,3,4,5)); 
+val autoData = sc.textFile(datadir+"auto-data.csv");
